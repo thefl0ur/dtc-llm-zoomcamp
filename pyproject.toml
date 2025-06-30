@@ -1,0 +1,11 @@
+[project]
+name = "dtc-llm-zoomcamp"
+version = "0.1.0"
+description = "DataTalks.Club LLM Zoomcamp"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastembed>=0.7.1",
+    "qdrant-client[fastembed]>=1.14.2",
+    "requests>=2.32.4",
+]
